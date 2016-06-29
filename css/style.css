@@ -10,6 +10,11 @@ body
   font-family: 'Montserrat', sans-serif;
 }
 
+a
+{
+  outline: 0;
+}
+
 #page1
 {
   width: 100%;
