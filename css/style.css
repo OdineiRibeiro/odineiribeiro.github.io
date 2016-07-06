@@ -38,17 +38,24 @@ a
   margin-right: auto;
   color: #fff;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 8vh;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 5vh;
   text-shadow: 2px 2px 4px #888;
 }
 
 #page1 .main
 {
   position: relative;
-  top: 25vh;
+  top: 15vh;
   text-align: center;
+}
+
+#page1 img
+{
+  width: 20vh;
+  height: 20vh;
+  margin-bottom: 5vh;
 }
 
 #nav
@@ -90,9 +97,9 @@ li a:hover
 
 .glyphicon
 {
-  margin-top: 5%;
+  margin-top: 2%;
   color: #fff;
-  font-size: 50px;
+  font-size: 3vh;
   text-shadow: 2px 2px 4px #888;
   cursor:default;
 }
