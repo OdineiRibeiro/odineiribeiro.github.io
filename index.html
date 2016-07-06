@@ -2,25 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Odinei Ribeiro</title>
   </head>
   <body>
+
+    <div id="nav">
+      <ul>
+        <li><a href="http://odineiribeiro.com.br" target="_self">Bem vindo!</a></li>
+        <li style="float:right"><a href="https://www.facebook.com/odinei.ribeiro" target="_blank">Facebook</a></li>
+        <li style="float:right"><a href="https://br.linkedin.com/in/odinei-ribeiro-216357123" target="_blank">LinkedIn</a></li>
+        <li style="float:right"><a href="https://github.com/OdineiRibeiro" target="_blank">Github</a></li>
+      </ul>
+    </div>
+
     <div id="page1">
       <a id="home"></a>
       <div class="container">
-        <div class="side-menu">
-          <ul>
-            <li><a href="https://github.com/OdineiRibeiro" target="_blank">Github</a></li>
-            <li><a href="https://br.linkedin.com/in/odinei-ribeiro-216357123" target="_blank">LinkedIn</a></li>
-            <li><a href="https://twitter.com/RibeiroOdinei" target="_blank">Twitter</a></li>
-            <li><a href="https://www.facebook.com/odinei.ribeiro" target="_blank">Facebook</a></li>
-            <!-- <li><a href="#about">(A little) about me</a></li>
-            <li><a href="#about">(A more little) about this site</a></li> -->
-          </ul>
+        <div class="main" class="smooth">
+          <h1>print 'olá';</h1>
+          <p>Sou Odinei Ribeiro, estudante e iniciante na área de desenvolvimento de software</p>
+          <p>Algumas das coisas bem legais que eu faço você pode conferir no GitHub alí em cima!</p>
+
+          <span class="glyphicon glyphicon-envelope" onmouseover="popupVisibility('visible')" onmouseout="popupVisibility('hidden')"></span>
+          <p id="email">odinei.ribeiro@live.com</p>
+
+          <p id="popup">Vamos conversar! Me envie um email!</p>
         </div>
       </div>
     </div>
+
+    <script>
+      function popupVisibility(value) {
+        document.getElementById('popup').style.visibility = value;
+      }
+    </script>
+
   </body>
 </html>
