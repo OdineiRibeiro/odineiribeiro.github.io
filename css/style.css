@@ -1,7 +1,7 @@
 body {
-    font: 20px "Montserrat", sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
+  font: 20px "Montserrat", sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
 }
 
 p {
@@ -13,18 +13,18 @@ p {
 }
 
 .bg-1 {
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+  background-color: transparent;  /* #1abc9c */
+  color: #ffffff;
 }
 
 .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
 }
 
 .bg-3 {
-    background-color: #ffffff; /* White */
-    color: #555555;
+  background-color: #ffffff; /* White */
+  color: #555555;
 }
 
 .bg-4 {
@@ -32,21 +32,48 @@ p {
     color: #ffffff;
 }
 
+.hacktoberfest-copy {
+  background: url("../images/background.jpg");
+  background-size: 100% 180%;
+  background-repeat: no-repeat;
+}
+
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar-default {
+  background-color: transparent;
 }
 
 .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
 }
 
+.navbar-brand, .navbar-nav li a {
+  color: #fff !important;
+  text-shadow: 2px 2px 8px #000;
+  font-size: 15px;
+}
+
+.navbar-brand:hover,
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+  text-decoration: underline;
+}
+
+
+.site-welcome-title {
+  text-shadow: 2px 2px 8px #333;
+  margin: 50px 0px 200px 0px;
+}
+
+.site-title {
+  font-size: 500%;
 }
