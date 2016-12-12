@@ -68,7 +68,6 @@ p {
   text-decoration: underline;
 }
 
-
 .site-welcome-title {
   text-shadow: 2px 2px 8px #333;
   margin: 50px 0px 200px 0px;
@@ -76,4 +75,14 @@ p {
 
 .site-title {
   font-size: 500%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table p {
+  font-size: 12px;
+  color: #999;
 }
