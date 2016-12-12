@@ -32,6 +32,11 @@ p {
     color: #ffffff;
 }
 
+.bg-5 {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
 .hacktoberfest-copy {
   background: url("../images/background.jpg");
   background-size: 100% 180%;
