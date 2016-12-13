@@ -38,9 +38,11 @@ p {
 }
 
 .hacktoberfest-copy {
-  background: url("../images/background.jpg");
-  background-size: 100% 180%;
-  background-repeat: no-repeat;
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .container-fluid {
