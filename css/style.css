@@ -91,3 +91,9 @@ table p {
   font-size: 12px;
   color: #999;
 }
+
+.social-icons a {
+  margin: 10px 10px 10px 10px;
+  color: #fff;
+  text-decoration: none;
+}
