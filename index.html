@@ -1,66 +1,200 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Odinei Ribeiro, student, ruby developer</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>Odinei Ribeiro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
-    <div id="nav">
-      <ul>
-        <li><a href="http://odineiribeiro.com.br" target="_self">Bem vindo!</a></li>
-        <li style="float:right"><a href="https://www.facebook.com/odinei.ribeiro" target="_blank">Facebook</a></li>
-        <li style="float:right"><a href="https://github.com/OdineiRibeiro/curriculo" target="_blank">Curriculo</a></li>
-        <li style="float:right"><a href="https://br.linkedin.com/in/odinei-ribeiro-216357123" target="_blank">LinkedIn</a></li>
-        <li style="float:right"><a href="https://github.com/OdineiRibeiro" target="_blank">Github</a></li>
-      </ul>
-    </div>
+    <section class="hacktoberfest-copy">
+      <nav class="navbar navbar-default">
+       <div class="container nav-links">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#">home</a>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="#skills">skills</a></li>
+             <li><a href="#timeline">timeline</a></li>
+             <li><a href="#contact">contact</a></li>
+           </ul>
+         </div>
+       </div>
+      </nav>
 
-
-    <div class="menu">
-      <!-- Menu -->
-      <ul>
-        <li><a href="https://github.com/OdineiRibeiro" target="_blank">Github</a></li>
-        <li><a href="https://br.linkedin.com/in/odinei-ribeiro-216357123" target="_blank">LinkedIn</a></li>
-        <li><a href="https://github.com/OdineiRibeiro/curriculo" target="_blank">Curriculo</a></li>
-        <li><a href="https://www.facebook.com/odinei.ribeiro" target="_blank">Facebook</a></li>
-      </ul>
-    </div>
-
-    <div id="page1">
-      <div class="icon-menu" align="right">
-        <i class="fa fa-bars"></i>
+      <div class="container-fluid bg-1 text-center">
+        <div class="site-welcome-title">
+          <h1 class="margin site-title">puts 'hello!'</h1>
+          <h3 class="margin">I'm Odinei Ribeiro, student and back-end developer!</h3>
+          <div class="social-icons">
+            <a href="https://br.linkedin.com/in/odinei-ribeiro-216357123" class="fa fa-linkedin fa-2x" title="LinkedIn profile!"></a>
+            <a href="https://github.com/odineiribeiro" class="fa fa-github fa-2x" title="See my projects on Github!"></a>
+            <a href="https://twitter.com/ribeiroodinei" class="fa fa-twitter fa-2x" title="Follow me on Twitter!"></a>
+          </div>
+        </div>
       </div>
+    </section>
 
-      <a id="home"></a>
+    <div id="skills" class="container-fluid bg-5 text-center">
+      <h2 class="margin">skills</h2>
       <div class="container">
-        <div class="main" class="smooth">
-          <img src="images/me.jpg" class="img-circle" alt="Cinque Terre">
-          <h1>print 'olá';</h1>
-          <p>Sou Odinei Ribeiro, estudante e iniciante na área de desenvolvimento de software</p>
-          <p>Algumas das coisas bem legais que eu faço você pode conferir no meu <a href="https://github.com/OdineiRibeiro" target="_blank">Github</a>!</p>
-
-          <span class="glyphicon glyphicon-envelope" onmouseover="popupVisibility('visible')" onmouseout="popupVisibility('hidden')"></span>
-          <p id="email">odinei.ribeiro@live.com</p>
-
-          <p id="popup">Vamos conversar! Me envie um email!</p>
+        <div class='col-md-8 col-md-offset-2'>
+          <span class="skills" title="git">git</span>
+          <span class="skills" title="mysql">mysql</span>
+          <span class="skills" title="rails">rails</span>
+          <span class="skills" title="ruby">ruby</span>
         </div>
       </div>
     </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/app.js"></script>
-    <script>
-      function popupVisibility(value) {
-        document.getElementById('popup').style.visibility = value;
-      }
-    </script>
+    <div id="timeline" class="container-fluid bg-3 text-center">
+
+      <h2>timeline</h2>
+      <hr>
+      <table class="table-borderless timeline-table">
+        <thead>
+          <h3 class="margin">education</h3>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="timeline">
+                <div class="timeline-text">
+                  <span class="title">Jan 2016 → Feb 2016</span>
+                  <hr>
+                  <span>Ruby on Rails bootcamp at Campus Code, 120 hours</span>
+                </div>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>
+              <div class="timeline">
+                <div class="timeline-text">
+                  <span class="title">Jan 2014 → Dec 2017</span>
+                  <hr>
+                  <span>Bachelor's degree in Computer Science in Universidade Nove de Julho</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+
+      <table class="table-borderless timeline-table">
+        <thead>
+          <h3 class="margin">coolstuff</h3>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="timeline">
+                <div class="timeline-text">
+                  <span class="title">Dec 2017</span>
+                  <hr>
+                  <span>Coach on Rails Girls São Paulo 2016</span>
+                </div>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+
+      <table class="table-borderless timeline-table">
+        <thead>
+          <h3 class="margin">work experience</h3>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td>
+              <div class="timeline">
+                <div class="timeline-text">
+                  <span class="title">Feb 2016 (current)</span>
+                  <hr>
+                  <span>Back-end developer intern at Petlove</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="timeline">
+                <div class="timeline-text">
+                  <span class="title">Nov 2011 → Aug 2013</span>
+                  <hr>
+                  <span>Service Desk at Aliança Brasil Navegação e Logística</span>
+                </div>
+              </div>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <div class="timeline">
+                <div class="timeline-text">
+                  <span class="title">Sep 2019 → Oct 2011</span>
+                  <hr>
+                  <span>Technical Support at D-Link</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="contact" class="container-fluid bg-5 text-center">
+      <h2 class="margin">contact</h2>
+      <div class="container">
+        <form class='col-md-8 col-md-offset-2' method="POST" action="http://formspree.io/odinei.ribeiro@live.com">
+          <div class="form-group">
+            <input name="email" type="email" class="form-control" id="email" placeholder="email">
+          </div>
+          <div class="form-group">
+            <input name="email" type="subject" class="form-control" id="pwd" placeholder="subject">
+          </div>
+          <textarea name="message" class="form-control" id="message" name="message" placeholder="I'll be very happy to receive a message from you!" rows="5" style="resize:none;"></textarea>
+          <br>
+          <button type="submit" class="btn btn-default col-md-12">Send</button>
+        </form>
+      </div>
+      <p class="gretting">
+        Thank you!
+      </p>
+    </div>
+
+    <footer class="container-fluid bg-4 text-center">
+      <div class="col-md-6 social-icons">
+        <a href="https://br.linkedin.com/in/odinei-ribeiro-216357123" class="fa fa-linkedin"></a>
+        <a href="https://github.com/odineiribeiro" class="fa fa-github"></a>
+        <a href="https://twitter.com/ribeiroodinei" class="fa fa-twitter"></a>
+      </div>
+      <div class="col-md-6 text-center">
+        <p>Bootstrap Theme Made By <a href="http://www.w3schools.com">www.w3schools.com</a></p>
+        <p>
+          Hosted with <spam style="color:#ff4949;">♥</spam><spam> on <strong>GitHub<strong></spam>
+        </p>
+      </div>
+    </footer>
 
   </body>
 </html>
