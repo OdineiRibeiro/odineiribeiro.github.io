@@ -8,7 +8,7 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -26,8 +26,9 @@
          </div>
          <div class="collapse navbar-collapse" id="myNavbar">
            <ul class="nav navbar-nav navbar-right">
-             <li><a href="#">timeline</a></li>
-             <li><a href="#">contact</a></li>
+             <li><a href="#skills">skills</a></li>
+             <li><a href="#timeline">timeline</a></li>
+             <li><a href="#contact">contact</a></li>
            </ul>
          </div>
        </div>
@@ -46,7 +47,7 @@
       </div>
     </section>
 
-    <div class="container-fluid bg-5 text-center">
+    <div id="skills" class="container-fluid bg-5 text-center">
       <h2 class="margin">skills</h2>
       <div class="container">
         <div class='col-md-8 col-md-offset-2'>
@@ -54,12 +55,11 @@
           <span class="skills" title="mysql">mysql</span>
           <span class="skills" title="rails">rails</span>
           <span class="skills" title="ruby">ruby</span>
-          <span class="skills" title="sinatra">sinatra</span>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid bg-3 text-center">
+    <div id="timeline" class="container-fluid bg-3 text-center">
 
       <h2>timeline</h2>
       <hr>
@@ -162,21 +162,24 @@
       </table>
     </div>
 
-    <div class="container-fluid bg-5 text-center">
+    <div id="contact" class="container-fluid bg-5 text-center">
       <h2 class="margin">contact</h2>
       <div class="container">
-        <form class='col-md-8 col-md-offset-2'>
+        <form class='col-md-8 col-md-offset-2' method="POST" action="http://formspree.io/odinei.ribeiro@live.com">
           <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="email">
+            <input name="email" type="email" class="form-control" id="email" placeholder="email">
           </div>
           <div class="form-group">
-            <input type="subject" class="form-control" id="pwd" placeholder="subject">
+            <input name="email" type="subject" class="form-control" id="pwd" placeholder="subject">
           </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Hi, how are you?" rows="5" style="resize:none;"></textarea>
+          <textarea name="message" class="form-control" id="message" name="message" placeholder="I'll be very happy to receive a message from you!" rows="5" style="resize:none;"></textarea>
           <br>
           <button type="submit" class="btn btn-default col-md-12">Send</button>
         </form>
       </div>
+      <p class="gretting">
+        Thank you!
+      </p>
     </div>
 
     <footer class="container-fluid bg-4 text-center">

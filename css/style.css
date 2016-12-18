@@ -131,3 +131,9 @@ table p {
   font-size: 15px;
   color: #999;
 }
+
+.gretting {
+  font: 30px "Pacifico", sans-serif;
+  line-height: 1.8;
+  margin-top: 10px;
+}
