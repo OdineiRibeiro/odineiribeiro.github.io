@@ -69,9 +69,13 @@ p {
   font-size: 20px;
 }
 
-.navbar-brand:hover,
 .navbar-nav li a:hover {
   text-decoration: underline;
+}
+
+.navbar-brand {
+  border: 1px solid #ddd;
+  cursor: default;
 }
 
 .site-welcome-title {
