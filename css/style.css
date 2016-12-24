@@ -63,7 +63,7 @@ p {
   font-size: 12px;
 }
 
-.navbar-brand, .navbar-nav li a {
+.navbar-nav li a {
   color: #fff !important;
   text-shadow: 2px 2px 8px #000;
   font-size: 20px;
@@ -71,11 +71,6 @@ p {
 
 .navbar-nav li a:hover {
   text-decoration: underline;
-}
-
-.navbar-brand {
-  border: 1px solid #ddd;
-  cursor: default;
 }
 
 .site-welcome-title {
