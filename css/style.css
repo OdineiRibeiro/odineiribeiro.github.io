@@ -154,3 +154,11 @@ table p {
   line-height: 1.8;
   margin-top: 10px;
 }
+
+.text-left {
+  text-align: left;
+}
+
+.now-list li {
+  font-size: medium;
+}
