@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
 body {
   margin: 0 auto;
   line-height: 1.5;
@@ -35,7 +37,7 @@ body {
 
 .center {
   margin: 0 auto;
-  max-width: 70em;
+  max-width: 50em;
 }
 
 .container {
@@ -43,12 +45,52 @@ body {
 }
 
 .content {
-  padding: 2em 0em;
+  padding: 2em 1em;
   background-color: #272727;
   border-top: 3px solid #F0F564;
   border-bottom: 3px solid #F0F564;
 }
 
 .title {
+  text-align: center;
+}
 
+.title span {
+  font-size: 1.1rem;
+  color: #6F6F6F;
+}
+
+.description p {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.cool_links ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  font-size: 0.7rem;
+  background-color: #181818;
+  border-radius: 3px;
+}
+
+.li_links {
+  padding: 0 1em;
+}
+
+.li_links a {
+  text-decoration: none;
+  color: #ccc;
+  margin-left: 0.5rem;
+  font-family: "Source Code Pro";
+}
+
+img {
+  width: 12em;
+  height: 12em;
+  border-radius: 50%;
 }
