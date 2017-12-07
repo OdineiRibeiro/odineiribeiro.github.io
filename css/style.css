@@ -41,10 +41,7 @@ body {
 }
 
 .container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 4em 0em;
 }
 
 .content {
