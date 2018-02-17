@@ -1,104 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
   margin: 0 auto;
-  line-height: 1.5;
-  background: #181818;
-  font-family: "Source Code Pro";
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.col-1  { width: 8.33%;  }
-.col-2  { width: 16.66%; }
-.col-3  { width: 25%;    }
-.col-4  { width: 33.33%; }
-.col-5  { width: 41.66%; }
-.col-6  { width: 50%;    }
-.col-7  { width: 58.33%; }
-.col-8  { width: 66.66%; }
-.col-9  { width: 75%;    }
-.col-10 { width: 83.33%; }
-.col-11 { width: 91.66%; }
-.col-12 { width: 100%;   }
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-.center {
-  margin: 0 auto;
   max-width: 50em;
+  line-height: 1.5;
+  background: #151515;
+  font-size: 22px;
+  color: #EEE;
+  font-family: "Raleway", sans-serif;
 }
 
-.container {
-  padding: 4em 0em;
+section {
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.content {
-  padding: 2em 1em;
-  background-color: #272727;
-  border-top: 3px solid #F0F564;
-  border-bottom: 3px solid #F0F564;
+h1:first-child {
+  margin-top: 0;
 }
 
-.title {
-  text-align: center;
+p:last-child {
+  margin-bottom: 0;
 }
 
-.title span {
-  font-size: 1.1rem;
-  color: #6F6F6F;
+.ruby-on-rails, .ruby, .rails {
+  color: #ab2123;
 }
 
-.description p {
-  font-size: 1.1rem;
-  color: white;
+.javascript, .js {
+  color: #f1e05a;
 }
 
-.cool_links ul {
-  padding: 0;
-  list-style-type: none;
+.python {
+  color: #3572A5;
 }
 
-li {
-  margin: 1em 0;
-  padding: 0.5em 0;
-  font-size: 0.7rem;
-  background-color: #181818;
-  border-radius: 3px;
+.github {
+  color: #ffffff;
 }
 
-.li_links {
-  padding: 0 1em;
+.linkedin {
+  color: #0077b5;
 }
 
-.li_links a {
-  text-decoration: none;
-  color: #ccc;
-  margin-left: 0.5rem;
-}
-
-img {
-  width: 12em;
-  height: 12em;
-  border-radius: 50%;
-}
-
-.hi {
-  margin-top: 25px;
-}
-
-.hi h2 {
-  color: white;
-
+.telegram {
+  color: #0088cc;
 }
