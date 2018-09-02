@@ -13,7 +13,7 @@ body {
 section {
   padding: 1em;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -27,26 +27,11 @@ p:last-child {
   margin-bottom: 0;
 }
 
-.ruby-on-rails, .ruby, .rails {
-  color: #ab2123;
-}
-
-.javascript, .js {
-  color: #f1e05a;
-}
-
-.python {
-  color: #3572A5;
-}
-
-.github {
-  color: #ffffff;
-}
-
-.linkedin {
+.link {
   color: #0077b5;
+  text-decoration: none;
 }
 
-.telegram {
-  color: #0088cc;
+.link:hover {
+  text-decoration: underline;
 }
