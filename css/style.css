@@ -1,37 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
 body {
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 30em;
   line-height: 1.5;
-  background: #151515;
-  font-size: 22px;
-  color: #EEE;
-  font-family: "Raleway", sans-serif;
+  padding: 4em 1em;
+  color: #3e3e3e;
+  font-family: "Fira Mono", sans-serif;
 }
 
-section {
-  padding: 1em;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+span {
+  line-height: 1.5
 }
 
-h1:first-child {
-  margin-top: 0;
+ul {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  list-style-type: none;
+  list-style-position: inherit;
+  padding: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-.link {
-  color: #0077b5;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
+a {
+  color: #3e3e3e;
 }
