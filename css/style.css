@@ -1,26 +1,110 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
 
 body {
   margin: 0 auto;
-  max-width: 30em;
+  max-width: 70em;
   line-height: 1.5;
   padding: 4em 1em;
-  color: #3e3e3e;
-  font-family: "Fira Mono", sans-serif;
-}
-
-span {
-  line-height: 1.5
-}
-
-ul {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  list-style-type: none;
-  list-style-position: inherit;
-  padding: 0;
+  color: #555;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
-  color: #3e3e3e;
+  color: #555;
+  font-size: 30px;
+}
+
+i {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 100;
+  margin-top: 0px; 
+}
+
+span {
+  font-weight: bold;
+}
+
+.ruby-on-rails {
+  color: #9B111E;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* grid */
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+/* grid */
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding-right: 30px;
+  text-decoration: none;
 }
