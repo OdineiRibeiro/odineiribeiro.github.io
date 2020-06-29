@@ -108,3 +108,11 @@ li a {
   padding-right: 30px;
   text-decoration: none;
 }
+
+.project-tile {
+  border: 2px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #DDDDDD;
+  padding: 10px;
+}
